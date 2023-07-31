@@ -62,9 +62,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-
-#hola soy adair 
-#desde mi rama 
 ROOT_URLCONF = 'pame.urls'
 import os 
 TEMPLATES = [
@@ -136,6 +133,10 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS=[
     os.path.join(os.path.join(BASE_DIR,"static"))
 ]
+
+
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
@@ -147,3 +148,6 @@ JAZZMIN_SETTINGS = {
     "site_header": "PAME",
     'site_logo': "static/img/logoheader.svg"
 }
+
+
+#hola 
