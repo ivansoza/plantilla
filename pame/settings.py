@@ -62,6 +62,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
+#hola soy adair 
+#desde mi rama 
 ROOT_URLCONF = 'pame.urls'
 import os 
 TEMPLATES = [
